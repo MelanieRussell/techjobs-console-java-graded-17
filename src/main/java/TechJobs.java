@@ -122,9 +122,11 @@ public class TechJobs {
 
 
         if(someJobs.isEmpty()){
-            System.out.println("No Results");
+            System.out.print("No Results");
         } else{
+
             for (int i=0;i<someJobs.size();i++) {
+                System.out.println();
                 System.out.println("*****");
                 System.out.println("position type: " + someJobs.get(i).get("position type"));
                 System.out.println("name: " + someJobs.get(i).get("name"));
